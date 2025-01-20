@@ -15,7 +15,33 @@
 .conteiner {
   width: 1050px;
 }
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
 .card {
   width: 328px;
   height: 243px;
+  border-radius: 5px;
+  padding: 40px 50px;
+  text-align: center;
+}
+p {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #737373;
+}
+h3 {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #252b42;
 }
